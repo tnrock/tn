@@ -74,4 +74,4 @@ def dataforginge():
 
 
 if __name__=='__main__':
-	app.run(debug=True)		#debug can be enabled,also host,port and options
+	app.run(host='0.0.0.0')		#debug can be enabled,also host,port and options
